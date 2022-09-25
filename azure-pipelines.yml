@@ -67,4 +67,6 @@ stages:
                     # Write your PowerShell commands here.   
                                  
                     Write-Host "##vso[task.setvariable variable=myVar;isoutput=true]$(Build.SourceVersion)"
+
+                    Write-Host "$(myVar)"
         
