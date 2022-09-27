@@ -63,5 +63,5 @@ stages:
               - task: Bash@3
                 inputs:
                   targetType: 'inline'
-                  script: 'curl --url "https://dev.azure.com/nkazuredemo/java-login-app/_apis/distributedtask/variablegroups/6?api-version=5.0-preview.1" --user Nishankumar:kttmiotgyixatnsti2ubyyeldium52x7boupblvs4tiztjm6w4oa --request PUT --header "Content-Type:application/json" --data "{\"id\":6,\"type\":\"Vsts\",\"name\":\"QA\",\"variables\":{\"myvar\":{\"isSecret\":false,\"value\":\"78285bfa74dc24359d837f0ef4e0eab6a9031b4b\"}}}"'
+                  script: 'curl -s -w --url "https://dev.azure.com/nkazuredemo/java-login-app/_apis/distributedtask/variablegroups/6?api-version=5.0-preview.1" --user Nishankumar:kttmiotgyixatnsti2ubyyeldium52x7boupblvs4tiztjm6w4oa --request PUT --header "Content-Type:application/json" --data "{\"id\":6,\"type\":\"Vsts\",\"name\":\"QA\",\"variables\":{\"myvar\":{\"isSecret\":false,\"value\":\"$(Build.SourceVersion)\"}}}"'
         
