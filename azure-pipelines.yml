@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: nkdemopool
+  name: azureagentpool
 
 # steps:
 # - task: Maven@3
