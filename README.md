@@ -14,8 +14,6 @@ CREATE DATABASE UserDB;
 ## How to list Tables ##
 
 
-
-
 USE UserDB;
 
 SHOW TABLES;
