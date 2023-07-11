@@ -39,6 +39,5 @@ SELECT * FROM Employee;
 ## Describe Table schema ##
 DESCRIBE Employee;
 
-
 123456
 12345678hgfdsdfghj
