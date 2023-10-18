@@ -57,7 +57,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+<!-- 
 		<build>
 			<plugins>
 				<plugin>
@@ -81,7 +81,7 @@
 					</executions>
 				</plugin>
 			</plugins>
-		</build>
+		</build> -->
 
 
 	</dependencies>
